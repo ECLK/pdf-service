@@ -4,138 +4,132 @@ Use the following JSON as request body to populate report.
 
 ```JSON
 {
-  "file": {
-    "template": "incidents/complaints/daily_summary_report.js",
-    "incidents": [
+    "margin.top": "15",
+    "margin.right": "1",
+    "margin.bottom": "0.5",
+    "margin.left": "1.5",
+    "format": "A3",
+    "landscape": true,
+    "file": {
+        "template": "incidents/complaints/full_summary_report.js",
+        "date": "2020/07/10",
+        "dateInfo": "2020/07/09 4:00pm - 2020/07/10 4:00pm",
+        "complaints": [
             {
-                "refId": "EC/EDR/PE20/JAF/0002",
-                "channel": "Letter",
-                "created_date": "2020/06/15",
-                "reporter": "adasdasdad",
-                "location": "fsdfdfdsf - Jaffna",
-                "summery" : "shkdfksjdhf kjshdfk"
+                "complaintNo": "EC/EDR/PE20/KAN/0009",
+                "channelLtr": "x",
+                "channelTel": "",
+                "channelFax": "",
+                "channelMail": "",
+                "complaintDate": "2020/06/09",
+                "reporter": "",
+                "location": "Kandy",
+                "complainSummery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla.",
+                "violentAction": "A-4",
+                "violationOfElectionLaw": "",
+                "other": "",
+                "law": "",
+                "medium": "x",
+                "critical": "",
+                "reportedParty": "-",
+                "progress": "-"
             },
             {
-                "refId": "EC/EDR/PE20/JAF/0003",
-                "channel": "Email",
-                "created_date": "2020/06/15",
-                "reporter": "sdfasdfd",
-                "location": "Jaffna",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/JAF/0003",
-                "channel": "Letter",
-                "created_date": "2020/06/15",
-                "reporter": "asdfsdf",
-                "location": "Jaffna",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/HAM/0004",
-                "channel": "Letter",
-                "created_date": "2020/06/21",
+                "complaintNo": "EC/EDR/PE20/HAM/0004",
+                "channelLtr": "x",
+                "channelTel": "",
+                "channelFax": "",
+                "channelMail": "",
+                "complaintDate": "2020/06/21",
                 "reporter": "Cleement",
                 "location": "Hambantota",
-                "summery" : "shkdfksjdhf kjshdfk"
+                "complainSummery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas.",
+                "violentAction": "",
+                "violationOfElectionLaw": "B-13",
+                "other": "",
+                "law": "",
+                "medium": "",
+                "critical": "x",
+                "reportedParty": "-",
+                "progress": "-"
             },
             {
-                "refId": "EC/EDR/PE20/GAM/0005",
-                "channel": "Email",
-                "created_date": "2020/06/22",
+                "complaintNo": "EC/EDR/PE20/GAM/0005",
+                "channelLtr": "",
+                "channelTel": "",
+                "channelFax": "",
+                "channelMail": "x",
+                "complaintDate": "2020/06/22",
                 "reporter": "adadadadadass",
                 "location": "Gampaha",
-                "summery" : "shkdfksjdhf kjshdfk"
+                "complainSummery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla.",
+                "violentAction": "",
+                "violationOfElectionLaw": "B-13",
+                "other": "",
+                "law": "",
+                "medium": "x",
+                "critical": "",
+                "reportedParty": "-",
+                "progress": "-"
             },
             {
-                "refId": "EC/EDR/PE20/KAN/0006",
-                "channel": "Email",
-                "created_date": "2020/06/25",
-                "reporter": "",
-                "location": "Kandy",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/GAM/0007",
-                "channel": "Letter",
-                "created_date": "2020/06/25",
-                "reporter": "",
-                "location": "Gampaha",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/GAM/0008",
-                "channel": "Fax",
-                "created_date": "2020/06/25",
-                "reporter": "",
-                "location": "Gampaha",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/KAN/0009",
-                "channel": "Letter",
-                "created_date": "2020/06/25",
-                "reporter": "",
-                "location": "Kandy",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/GAM/0010",
-                "channel": "Letter",
-                "created_date": "2020/06/26",
-                "reporter": "",
-                "location": "Gampaha",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/JAF/0011",
-                "channel": "Letter",
-                "created_date": "2020/06/26",
+                "complaintNo": "EC/EDR/PE20/JAF/0011",
+                "channelLtr": "x",
+                "channelTel": "",
+                "channelFax": "",
+                "channelMail": "",
+                "complaintDate": "2020/06/26",
                 "reporter": "",
                 "location": "Jaffna",
-                "summery" : "shkdfksjdhf kjshdfk"
+                "complainSummery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas.",
+                "violentAction": "",
+                "violationOfElectionLaw": "",
+                "other": "Other",
+                "law": "",
+                "medium": "",
+                "critical": "x",
+                "reportedParty": "Education Department ",
+                "progress": " situation is handled."
             },
             {
-                "refId": "EC/EDR/PE20/HAM/0014",
-                "channel": "Letter",
-                "created_date": "2020/07/01",
-                "reporter": "sfsdfdfdf",
-                "location": "Hambantota",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/KEG/0012",
-                "channel": "Letter",
-                "created_date": "2020/07/01",
-                "reporter": "sdfafasdf",
-                "location": "Kegalle",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/JAF/0013",
-                "channel": "Letter",
-                "created_date": "2020/07/01",
+                "complaintNo": "EC/EDR/PE20/JAF/0013",
+                "channelLtr": "x",
+                "channelTel": "",
+                "channelFax": "",
+                "channelMail": "",
+                "complaintDate": "2020/07/01",
                 "reporter": "",
                 "location": "Jaffna",
-                "summery" : "shkdfksjdhf kjshdfk"
+                "complainSummery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla.",
+                "violentAction": "A-8",
+                "violationOfElectionLaw": "",
+                "other": "",
+                "law": "x",
+                "medium": "",
+                "critical": "",
+                "reportedParty": "-",
+                "progress": "-"
             },
             {
-                "refId": "EC/EDR/PE20/KIL/0015",
-                "channel": "Letter",
-                "created_date": "2020/07/01",
+                "complaintNo": "EC/EDR/PE20/KIL/0015",
+                "channelLtr": "x",
+                "channelTel": "",
+                "channelFax": "",
+                "channelMail": "",
+                "complaintDate": "2020/07/01",
                 "reporter": "asdfasdf",
                 "location": "Kilinochchi",
-                "summery" : "shkdfksjdhf kjshdfk"
-            },
-            {
-                "refId": "EC/EDR/PE20/GAM/0016",
-                "channel": "Letter",
-                "created_date": "2020/07/01",
-                "reporter": "",
-                "location": "Gampaha",
-                "summery" : "shkdfksjdhf kjshdfk"
+                "complainSummery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas.",
+                "violentAction": "",
+                "violationOfElectionLaw": "B-23",
+                "other": "",
+                "law": "",
+                "medium": "x",
+                "critical": "",
+                "reportedParty": "Legal Department ",
+                "progress": " Proper way is to manage outcome."
             }
         ]
-  }
+    }
 }
 ```
